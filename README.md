@@ -3,8 +3,8 @@ Reactale is what happens when literature embraces technology and comes to life. 
 
 REACTALE marks the birth of a NEW ERA of story telling, in search of a new way, a very REACTIVE one, where no longer will an immersive tale ONLY ENGAGE its readers, but it will INTERACT, and most importantly, it will REACT...
 
-# Please Note
+## Please Note
 This repo only contains the compiled code. The core repo is private. The purpose of this repo is just to have a demonstrable website up and running at https://reactale.github.io/tales-flow
 
 
-** ALL RIGHTS RESERVED **
+*****ALL RIGHTS RESERVED*****
