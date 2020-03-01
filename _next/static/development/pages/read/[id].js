@@ -1,5 +1,277 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\read\\[id].js"],{
 
+/***/ "./components/layout/footer/Footer.js":
+/*!********************************************!*\
+  !*** ./components/layout/footer/Footer.js ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! clsx */ "./node_modules/clsx/dist/clsx.m.js");
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/styles */ "./node_modules/@material-ui/core/esm/styles/index.js");
+/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/Typography */ "./node_modules/@material-ui/core/esm/Typography/index.js");
+/* harmony import */ var _material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core/Box */ "./node_modules/@material-ui/core/esm/Box/index.js");
+/* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/core/Grid */ "./node_modules/@material-ui/core/esm/Grid/index.js");
+/* harmony import */ var _material_ui_icons_Facebook__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/icons/Facebook */ "./node_modules/@material-ui/icons/Facebook.js");
+/* harmony import */ var _material_ui_icons_Facebook__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_Facebook__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _material_ui_icons_Twitter__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @material-ui/icons/Twitter */ "./node_modules/@material-ui/icons/Twitter.js");
+/* harmony import */ var _material_ui_icons_Twitter__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_Twitter__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _material_ui_icons_Email__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @material-ui/icons/Email */ "./node_modules/@material-ui/icons/Email.js");
+/* harmony import */ var _material_ui_icons_Email__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_Email__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _material_ui_icons_Android__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @material-ui/icons/Android */ "./node_modules/@material-ui/icons/Android.js");
+/* harmony import */ var _material_ui_icons_Android__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_Android__WEBPACK_IMPORTED_MODULE_9__);
+var _jsxFileName = "D:\\Code\\GIthub-Reactale\\reactale-static\\components\\layout\\footer\\Footer.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+
+
+
+var useStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__["makeStyles"])(function (theme) {
+  return {
+    root: {
+      backgroundColor: theme.palette.primary.dark,
+      color: '#fff',
+      padding: "".concat(theme.spacing(5), "px ").concat(theme.spacing(4), "px")
+    },
+    links: {
+      '& a': {
+        textDecoration: 'none',
+        color: '#fff !important'
+      }
+    },
+    iconLinks: {
+      display: 'flex',
+      '& svg': {
+        fontSize: 27,
+        marginRight: theme.spacing(1)
+      }
+    }
+  };
+});
+
+var Footer = function Footer(props) {
+  var classes = useStyles();
+  return __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: classes.root,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    container: true,
+    spacing: 3,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    item: true,
+    xs: 12,
+    md: 8,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, __jsx("p", {
+    className: "margin-top-0",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, "Reactale is what happens when literature embraces technology and comes to life. When a reader reads a Reactale (a.k.a Reactive Tale), the Reactale also reads back its reader and then reacts by magically altering itself depending on the reader's actions / decisions / sorroundings and other learnings that are made available to it about its reader."), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }, "REACTALE marks the birth of a NEW ERA of story telling, in search of a new way, a very REACTIVE one, where no longer will an immersive tale ONLY ENGAGE its readers, but it will INTERACT, and most importantly, it will REACT...")), __jsx(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    item: true,
+    xs: 12,
+    md: 4,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    variant: "h5",
+    gutterBottom: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, "Connect"), __jsx("ul", {
+    className: Object(clsx__WEBPACK_IMPORTED_MODULE_1__["default"])(classes.links, classes.iconLinks),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "https://www.facebook.com/reactale",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, __jsx(_material_ui_icons_Facebook__WEBPACK_IMPORTED_MODULE_6___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "https://twitter.com/ReactiveTales",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }, __jsx(_material_ui_icons_Twitter__WEBPACK_IMPORTED_MODULE_7___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "mailto:reactale@gmail.com",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }, __jsx(_material_ui_icons_Email__WEBPACK_IMPORTED_MODULE_8___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }))), __jsx("li", {
+    title: "Android app coming soon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }, __jsx("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }, __jsx(_material_ui_icons_Android__WEBPACK_IMPORTED_MODULE_9___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }))))), __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    mt: 2,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  }, __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    variant: "h5",
+    gutterBottom: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }, "Links"), __jsx("ul", {
+    className: classes.links,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62
+    },
+    __self: this
+  }, __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "https://reacto.reactale.com/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
+    },
+    __self: this
+  }, "Reacto")), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "https://reactale.com/rtale/privacy-policy",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67
+    },
+    __self: this
+  }, "Privacy Policy")), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "https://reactale.com/rtale/terms-and-conditions",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70
+    },
+    __self: this
+  }, "Terms and Conditions")))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Footer);
+
+/***/ }),
+
 /***/ "./components/layout/header/Header.js":
 /*!********************************************!*\
   !*** ./components/layout/header/Header.js ***!
@@ -257,7 +529,7 @@ if (true) {
 /*!************************************!*\
   !*** ./components/layout/index.js ***!
   \************************************/
-/*! exports provided: Header, Sidebard, MasterLayout */
+/*! exports provided: Header, Sidebard, Footer, MasterLayout */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -268,11 +540,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sidebar_Sidebar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./sidebar/Sidebar */ "./components/layout/sidebar/Sidebar.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Sidebard", function() { return _sidebar_Sidebar__WEBPACK_IMPORTED_MODULE_1__["default"]; });
 
-/* harmony import */ var _masterLayout_MasterLayout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./masterLayout/MasterLayout */ "./components/layout/masterLayout/MasterLayout.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MasterLayout", function() { return _masterLayout_MasterLayout__WEBPACK_IMPORTED_MODULE_2__["default"]; });
+/* harmony import */ var _footer_Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./footer/Footer */ "./components/layout/footer/Footer.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Footer", function() { return _footer_Footer__WEBPACK_IMPORTED_MODULE_2__["default"]; });
+
+/* harmony import */ var _masterLayout_MasterLayout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./masterLayout/MasterLayout */ "./components/layout/masterLayout/MasterLayout.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MasterLayout", function() { return _masterLayout_MasterLayout__WEBPACK_IMPORTED_MODULE_3__["default"]; });
 
 
- // import Footer from './footer/Footer'
+
 
 
 
@@ -338,29 +613,42 @@ var MasterLayout = function MasterLayout(props) {
   }), __jsx(___WEBPACK_IMPORTED_MODULE_7__["Header"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 19
     },
     __self: this
   }), __jsx("nav", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 20
     },
     __self: this
   }, __jsx(___WEBPACK_IMPORTED_MODULE_7__["Sidebard"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 21
     },
     __self: this
   })), __jsx(_material_ui_core_Container__WEBPACK_IMPORTED_MODULE_2__["default"], {
     maxWidth: "xl",
+    className: "appbody",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 23
     },
     __self: this
-  }, children)));
+  }, children), __jsx("footer", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, __jsx(___WEBPACK_IMPORTED_MODULE_7__["Footer"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (MasterLayout);
@@ -468,10 +756,12 @@ var Sidebard = function Sidebard(props) {
         lineNumber: 67
       },
       __self: this
-    }, navs.map(function (nav, index) {
+    }, navs.map(function (nav) {
       return __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
         key: nav.name,
         href: nav.url,
+        as: nav.url,
+        title: nav.name,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 69
@@ -1433,6 +1723,22 @@ module.exports = __webpack_require__(/*! regenerator-runtime */ "./node_modules/
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _arrayWithHoles; });
+function _arrayWithHoles(arr) {
+  if (Array.isArray(arr)) return arr;
+}
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js":
 /*!**********************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js ***!
@@ -1612,6 +1918,64 @@ function _iterableToArray(iter) {
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js ***!
+  \*************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _iterableToArrayLimit; });
+function _iterableToArrayLimit(arr, i) {
+  if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) {
+    return;
+  }
+
+  var _arr = [];
+  var _n = true;
+  var _d = false;
+  var _e = undefined;
+
+  try {
+    for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) {
+      _arr.push(_s.value);
+
+      if (i && _arr.length === i) break;
+    }
+  } catch (err) {
+    _d = true;
+    _e = err;
+  } finally {
+    try {
+      if (!_n && _i["return"] != null) _i["return"]();
+    } finally {
+      if (_d) throw _e;
+    }
+  }
+
+  return _arr;
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/nonIterableRest.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/nonIterableRest.js ***!
+  \********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _nonIterableRest; });
+function _nonIterableRest() {
+  throw new TypeError("Invalid attempt to destructure non-iterable instance");
+}
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime/helpers/esm/nonIterableSpread.js":
 /*!**********************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/esm/nonIterableSpread.js ***!
@@ -1684,6 +2048,28 @@ function _objectWithoutPropertiesLoose(source, excluded) {
   }
 
   return target;
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js ***!
+  \******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _slicedToArray; });
+/* harmony import */ var _arrayWithHoles__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./arrayWithHoles */ "./node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js");
+/* harmony import */ var _iterableToArrayLimit__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./iterableToArrayLimit */ "./node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js");
+/* harmony import */ var _nonIterableRest__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./nonIterableRest */ "./node_modules/@babel/runtime/helpers/esm/nonIterableRest.js");
+
+
+
+function _slicedToArray(arr, i) {
+  return Object(_arrayWithHoles__WEBPACK_IMPORTED_MODULE_0__["default"])(arr) || Object(_iterableToArrayLimit__WEBPACK_IMPORTED_MODULE_1__["default"])(arr, i) || Object(_nonIterableRest__WEBPACK_IMPORTED_MODULE_2__["default"])();
 }
 
 /***/ }),
@@ -2132,6 +2518,50 @@ var Backdrop = react__WEBPACK_IMPORTED_MODULE_2__["forwardRef"](function Backdro
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Backdrop__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Backdrop */ "./node_modules/@material-ui/core/esm/Backdrop/Backdrop.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Backdrop__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/core/esm/Box/Box.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/@material-ui/core/esm/Box/Box.js ***!
+  \*******************************************************/
+/*! exports provided: styleFunction, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "styleFunction", function() { return styleFunction; });
+/* harmony import */ var _material_ui_system__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @material-ui/system */ "./node_modules/@material-ui/system/esm/index.js");
+/* harmony import */ var _styles_styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/styled */ "./node_modules/@material-ui/core/esm/styles/styled.js");
+
+
+var styleFunction = Object(_material_ui_system__WEBPACK_IMPORTED_MODULE_0__["css"])(Object(_material_ui_system__WEBPACK_IMPORTED_MODULE_0__["compose"])(_material_ui_system__WEBPACK_IMPORTED_MODULE_0__["borders"], _material_ui_system__WEBPACK_IMPORTED_MODULE_0__["display"], _material_ui_system__WEBPACK_IMPORTED_MODULE_0__["flexbox"], _material_ui_system__WEBPACK_IMPORTED_MODULE_0__["grid"], _material_ui_system__WEBPACK_IMPORTED_MODULE_0__["positions"], _material_ui_system__WEBPACK_IMPORTED_MODULE_0__["palette"], _material_ui_system__WEBPACK_IMPORTED_MODULE_0__["shadows"], _material_ui_system__WEBPACK_IMPORTED_MODULE_0__["sizing"], _material_ui_system__WEBPACK_IMPORTED_MODULE_0__["spacing"], _material_ui_system__WEBPACK_IMPORTED_MODULE_0__["typography"]));
+/**
+ * @ignore - do not document.
+ */
+
+var Box = Object(_styles_styled__WEBPACK_IMPORTED_MODULE_1__["default"])('div')(styleFunction, {
+  name: 'MuiBox'
+});
+/* harmony default export */ __webpack_exports__["default"] = (Box);
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/core/esm/Box/index.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/@material-ui/core/esm/Box/index.js ***!
+  \*********************************************************/
+/*! exports provided: default, styleFunction */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Box__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Box */ "./node_modules/@material-ui/core/esm/Box/Box.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Box__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "styleFunction", function() { return _Box__WEBPACK_IMPORTED_MODULE_0__["styleFunction"]; });
 
 
 
@@ -4341,6 +4771,433 @@ var Fade = react__WEBPACK_IMPORTED_MODULE_2__["forwardRef"](function Fade(props,
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Fade__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Fade */ "./node_modules/@material-ui/core/esm/Fade/Fade.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Fade__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/core/esm/Grid/Grid.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/@material-ui/core/esm/Grid/Grid.js ***!
+  \*********************************************************/
+/*! exports provided: styles, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "styles", function() { return styles; });
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! clsx */ "./node_modules/clsx/dist/clsx.m.js");
+/* harmony import */ var _styles_withStyles__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/withStyles */ "./node_modules/@material-ui/core/esm/styles/withStyles.js");
+/* harmony import */ var _utils_requirePropFactory__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../utils/requirePropFactory */ "./node_modules/@material-ui/core/esm/utils/requirePropFactory.js");
+
+
+// A grid component using the following libs as inspiration.
+//
+// For the implementation:
+// - https://getbootstrap.com/docs/4.3/layout/grid/
+// - https://github.com/kristoferjoseph/flexboxgrid/blob/master/src/css/flexboxgrid.css
+// - https://github.com/roylee0704/react-flexbox-grid
+// - https://material.angularjs.org/latest/layout/introduction
+//
+// Follow this flexbox Guide to better understand the underlying model:
+// - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+
+
+
+
+var SPACINGS = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var GRID_SIZES = ['auto', true, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+
+function generateGrid(globalStyles, theme, breakpoint) {
+  var styles = {};
+  GRID_SIZES.forEach(function (size) {
+    var key = "grid-".concat(breakpoint, "-").concat(size);
+
+    if (size === true) {
+      // For the auto layouting
+      styles[key] = {
+        flexBasis: 0,
+        flexGrow: 1,
+        maxWidth: '100%'
+      };
+      return;
+    }
+
+    if (size === 'auto') {
+      styles[key] = {
+        flexBasis: 'auto',
+        flexGrow: 0,
+        maxWidth: 'none'
+      };
+      return;
+    } // Keep 7 significant numbers.
+
+
+    var width = "".concat(Math.round(size / 12 * 10e7) / 10e5, "%"); // Close to the bootstrap implementation:
+    // https://github.com/twbs/bootstrap/blob/8fccaa2439e97ec72a4b7dc42ccc1f649790adb0/scss/mixins/_grid.scss#L41
+
+    styles[key] = {
+      flexBasis: width,
+      flexGrow: 0,
+      maxWidth: width
+    };
+  }); // No need for a media query for the first size.
+
+  if (breakpoint === 'xs') {
+    Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])(globalStyles, styles);
+  } else {
+    globalStyles[theme.breakpoints.up(breakpoint)] = styles;
+  }
+}
+
+function getOffset(val) {
+  var div = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1;
+  var parse = parseFloat(val);
+  return "".concat(parse / div).concat(String(val).replace(String(parse), '') || 'px');
+}
+
+function generateGutter(theme, breakpoint) {
+  var styles = {};
+  SPACINGS.forEach(function (spacing) {
+    var themeSpacing = theme.spacing(spacing);
+
+    if (themeSpacing === 0) {
+      return;
+    }
+
+    styles["spacing-".concat(breakpoint, "-").concat(spacing)] = {
+      margin: "-".concat(getOffset(themeSpacing, 2)),
+      width: "calc(100% + ".concat(getOffset(themeSpacing), ")"),
+      '& > $item': {
+        padding: getOffset(themeSpacing, 2)
+      }
+    };
+  });
+  return styles;
+} // Default CSS values
+// flex: '0 1 auto',
+// flexDirection: 'row',
+// alignItems: 'flex-start',
+// flexWrap: 'nowrap',
+// justifyContent: 'flex-start',
+
+
+var styles = function styles(theme) {
+  return Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
+    /* Styles applied to the root element */
+    root: {},
+
+    /* Styles applied to the root element if `container={true}`. */
+    container: {
+      boxSizing: 'border-box',
+      display: 'flex',
+      flexWrap: 'wrap',
+      width: '100%'
+    },
+
+    /* Styles applied to the root element if `item={true}`. */
+    item: {
+      boxSizing: 'border-box',
+      margin: '0' // For instance, it's useful when used with a `figure` element.
+
+    },
+
+    /* Styles applied to the root element if `zeroMinWidth={true}`. */
+    zeroMinWidth: {
+      minWidth: 0
+    },
+
+    /* Styles applied to the root element if `direction="column"`. */
+    'direction-xs-column': {
+      flexDirection: 'column'
+    },
+
+    /* Styles applied to the root element if `direction="column-reverse"`. */
+    'direction-xs-column-reverse': {
+      flexDirection: 'column-reverse'
+    },
+
+    /* Styles applied to the root element if `direction="rwo-reverse"`. */
+    'direction-xs-row-reverse': {
+      flexDirection: 'row-reverse'
+    },
+
+    /* Styles applied to the root element if `wrap="nowrap"`. */
+    'wrap-xs-nowrap': {
+      flexWrap: 'nowrap'
+    },
+
+    /* Styles applied to the root element if `wrap="reverse"`. */
+    'wrap-xs-wrap-reverse': {
+      flexWrap: 'wrap-reverse'
+    },
+
+    /* Styles applied to the root element if `alignItems="center"`. */
+    'align-items-xs-center': {
+      alignItems: 'center'
+    },
+
+    /* Styles applied to the root element if `alignItems="flex-start"`. */
+    'align-items-xs-flex-start': {
+      alignItems: 'flex-start'
+    },
+
+    /* Styles applied to the root element if `alignItems="flex-end"`. */
+    'align-items-xs-flex-end': {
+      alignItems: 'flex-end'
+    },
+
+    /* Styles applied to the root element if `alignItems="baseline"`. */
+    'align-items-xs-baseline': {
+      alignItems: 'baseline'
+    },
+
+    /* Styles applied to the root element if `alignContent="center"`. */
+    'align-content-xs-center': {
+      alignContent: 'center'
+    },
+
+    /* Styles applied to the root element if `alignContent="flex-start"`. */
+    'align-content-xs-flex-start': {
+      alignContent: 'flex-start'
+    },
+
+    /* Styles applied to the root element if `alignContent="flex-end"`. */
+    'align-content-xs-flex-end': {
+      alignContent: 'flex-end'
+    },
+
+    /* Styles applied to the root element if `alignContent="space-between"`. */
+    'align-content-xs-space-between': {
+      alignContent: 'space-between'
+    },
+
+    /* Styles applied to the root element if `alignContent="space-around"`. */
+    'align-content-xs-space-around': {
+      alignContent: 'space-around'
+    },
+
+    /* Styles applied to the root element if `justify="center"`. */
+    'justify-xs-center': {
+      justifyContent: 'center'
+    },
+
+    /* Styles applied to the root element if `justify="flex-end"`. */
+    'justify-xs-flex-end': {
+      justifyContent: 'flex-end'
+    },
+
+    /* Styles applied to the root element if `justify="space-between"`. */
+    'justify-xs-space-between': {
+      justifyContent: 'space-between'
+    },
+
+    /* Styles applied to the root element if `justify="space-around"`. */
+    'justify-xs-space-around': {
+      justifyContent: 'space-around'
+    },
+
+    /* Styles applied to the root element if `justify="space-evenly"`. */
+    'justify-xs-space-evenly': {
+      justifyContent: 'space-evenly'
+    }
+  }, generateGutter(theme, 'xs'), {}, theme.breakpoints.keys.reduce(function (accumulator, key) {
+    // Use side effect over immutability for better performance.
+    generateGrid(accumulator, theme, key);
+    return accumulator;
+  }, {}));
+};
+var Grid = react__WEBPACK_IMPORTED_MODULE_2__["forwardRef"](function Grid(props, ref) {
+  var _props$alignContent = props.alignContent,
+      alignContent = _props$alignContent === void 0 ? 'stretch' : _props$alignContent,
+      _props$alignItems = props.alignItems,
+      alignItems = _props$alignItems === void 0 ? 'stretch' : _props$alignItems,
+      classes = props.classes,
+      classNameProp = props.className,
+      _props$component = props.component,
+      Component = _props$component === void 0 ? 'div' : _props$component,
+      _props$container = props.container,
+      container = _props$container === void 0 ? false : _props$container,
+      _props$direction = props.direction,
+      direction = _props$direction === void 0 ? 'row' : _props$direction,
+      _props$item = props.item,
+      item = _props$item === void 0 ? false : _props$item,
+      _props$justify = props.justify,
+      justify = _props$justify === void 0 ? 'flex-start' : _props$justify,
+      _props$lg = props.lg,
+      lg = _props$lg === void 0 ? false : _props$lg,
+      _props$md = props.md,
+      md = _props$md === void 0 ? false : _props$md,
+      _props$sm = props.sm,
+      sm = _props$sm === void 0 ? false : _props$sm,
+      _props$spacing = props.spacing,
+      spacing = _props$spacing === void 0 ? 0 : _props$spacing,
+      _props$wrap = props.wrap,
+      wrap = _props$wrap === void 0 ? 'wrap' : _props$wrap,
+      _props$xl = props.xl,
+      xl = _props$xl === void 0 ? false : _props$xl,
+      _props$xs = props.xs,
+      xs = _props$xs === void 0 ? false : _props$xs,
+      _props$zeroMinWidth = props.zeroMinWidth,
+      zeroMinWidth = _props$zeroMinWidth === void 0 ? false : _props$zeroMinWidth,
+      other = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__["default"])(props, ["alignContent", "alignItems", "classes", "className", "component", "container", "direction", "item", "justify", "lg", "md", "sm", "spacing", "wrap", "xl", "xs", "zeroMinWidth"]);
+
+  var className = Object(clsx__WEBPACK_IMPORTED_MODULE_4__["default"])(classes.root, classNameProp, container && [classes.container, spacing !== 0 && classes["spacing-xs-".concat(String(spacing))]], item && classes.item, zeroMinWidth && classes.zeroMinWidth, direction !== 'row' && classes["direction-xs-".concat(String(direction))], wrap !== 'wrap' && classes["wrap-xs-".concat(String(wrap))], alignItems !== 'stretch' && classes["align-items-xs-".concat(String(alignItems))], alignContent !== 'stretch' && classes["align-content-xs-".concat(String(alignContent))], justify !== 'flex-start' && classes["justify-xs-".concat(String(justify))], xs !== false && classes["grid-xs-".concat(String(xs))], sm !== false && classes["grid-sm-".concat(String(sm))], md !== false && classes["grid-md-".concat(String(md))], lg !== false && classes["grid-lg-".concat(String(lg))], xl !== false && classes["grid-xl-".concat(String(xl))]);
+  return react__WEBPACK_IMPORTED_MODULE_2__["createElement"](Component, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
+    className: className,
+    ref: ref
+  }, other));
+});
+ true ? Grid.propTypes = {
+  /**
+   * Defines the `align-content` style property.
+   * It's applied for all screen sizes.
+   */
+  alignContent: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf(['stretch', 'center', 'flex-start', 'flex-end', 'space-between', 'space-around']),
+
+  /**
+   * Defines the `align-items` style property.
+   * It's applied for all screen sizes.
+   */
+  alignItems: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf(['flex-start', 'center', 'flex-end', 'stretch', 'baseline']),
+
+  /**
+   * The content of the component.
+   */
+  children: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.node,
+
+  /**
+   * Override or extend the styles applied to the component.
+   * See [CSS API](#css) below for more details.
+   */
+  classes: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.object.isRequired,
+
+  /**
+   * @ignore
+   */
+  className: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string,
+
+  /**
+   * The component used for the root node.
+   * Either a string to use a DOM element or a component.
+   */
+  component: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.elementType,
+
+  /**
+   * If `true`, the component will have the flex *container* behavior.
+   * You should be wrapping *items* with a *container*.
+   */
+  container: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.bool,
+
+  /**
+   * Defines the `flex-direction` style property.
+   * It is applied for all screen sizes.
+   */
+  direction: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf(['row', 'row-reverse', 'column', 'column-reverse']),
+
+  /**
+   * If `true`, the component will have the flex *item* behavior.
+   * You should be wrapping *items* with a *container*.
+   */
+  item: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.bool,
+
+  /**
+   * Defines the `justify-content` style property.
+   * It is applied for all screen sizes.
+   */
+  justify: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf(['flex-start', 'center', 'flex-end', 'space-between', 'space-around', 'space-evenly']),
+
+  /**
+   * Defines the number of grids the component is going to use.
+   * It's applied for the `lg` breakpoint and wider screens if not overridden.
+   */
+  lg: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf([false, 'auto', true, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]),
+
+  /**
+   * Defines the number of grids the component is going to use.
+   * It's applied for the `md` breakpoint and wider screens if not overridden.
+   */
+  md: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf([false, 'auto', true, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]),
+
+  /**
+   * Defines the number of grids the component is going to use.
+   * It's applied for the `sm` breakpoint and wider screens if not overridden.
+   */
+  sm: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf([false, 'auto', true, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]),
+
+  /**
+   * Defines the space between the type `item` component.
+   * It can only be used on a type `container` component.
+   */
+  spacing: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf(SPACINGS),
+
+  /**
+   * Defines the `flex-wrap` style property.
+   * It's applied for all screen sizes.
+   */
+  wrap: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf(['nowrap', 'wrap', 'wrap-reverse']),
+
+  /**
+   * Defines the number of grids the component is going to use.
+   * It's applied for the `xl` breakpoint and wider screens.
+   */
+  xl: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf([false, 'auto', true, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]),
+
+  /**
+   * Defines the number of grids the component is going to use.
+   * It's applied for all the screen sizes with the lowest priority.
+   */
+  xs: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.oneOf([false, 'auto', true, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]),
+
+  /**
+   * If `true`, it sets `min-width: 0` on the item.
+   * Refer to the limitations section of the documentation to better understand the use case.
+   */
+  zeroMinWidth: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.bool
+} : undefined;
+var StyledGrid = Object(_styles_withStyles__WEBPACK_IMPORTED_MODULE_5__["default"])(styles, {
+  name: 'MuiGrid'
+})(Grid);
+
+if (true) {
+  var requireProp = Object(_utils_requirePropFactory__WEBPACK_IMPORTED_MODULE_6__["default"])('Grid');
+  StyledGrid.propTypes = Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, StyledGrid.propTypes, {
+    alignContent: requireProp('container'),
+    alignItems: requireProp('container'),
+    direction: requireProp('container'),
+    justify: requireProp('container'),
+    lg: requireProp('item'),
+    md: requireProp('item'),
+    sm: requireProp('item'),
+    spacing: requireProp('container'),
+    wrap: requireProp('container'),
+    xs: requireProp('item'),
+    zeroMinWidth: requireProp('item')
+  });
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (StyledGrid);
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/core/esm/Grid/index.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/@material-ui/core/esm/Grid/index.js ***!
+  \**********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Grid__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Grid */ "./node_modules/@material-ui/core/esm/Grid/Grid.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _Grid__WEBPACK_IMPORTED_MODULE_0__["default"]; });
 
 
 
@@ -9090,7 +9947,7 @@ var defaultTheme = Object(_createMuiTheme__WEBPACK_IMPORTED_MODULE_0__["default"
 /*!************************************************************!*\
   !*** ./node_modules/@material-ui/core/esm/styles/index.js ***!
   \************************************************************/
-/*! exports provided: createMuiTheme, createStyles, makeStyles, responsiveFontSizes, styled, useTheme, withStyles, withTheme, createGenerateClassName, jssPreset, ServerStyleSheets, StylesProvider, MuiThemeProvider, ThemeProvider, hexToRgb, rgbToHex, hslToRgb, decomposeColor, recomposeColor, getContrastRatio, getLuminance, emphasize, fade, darken, lighten, easing, duration */
+/*! exports provided: hexToRgb, rgbToHex, hslToRgb, decomposeColor, recomposeColor, getContrastRatio, getLuminance, emphasize, fade, darken, lighten, createMuiTheme, createStyles, makeStyles, responsiveFontSizes, styled, easing, duration, useTheme, withStyles, withTheme, createGenerateClassName, jssPreset, ServerStyleSheets, StylesProvider, MuiThemeProvider, ThemeProvider */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9951,6 +10808,36 @@ function ownerWindow(node) {
 
 /***/ }),
 
+/***/ "./node_modules/@material-ui/core/esm/utils/requirePropFactory.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/@material-ui/core/esm/utils/requirePropFactory.js ***!
+  \************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return requirePropFactory; });
+function requirePropFactory(componentNameInError) {
+  if (false) {}
+
+  var requireProp = function requireProp(requiredProp) {
+    return function (props, propName, componentName, location, propFullName) {
+      var propFullNameSafe = propFullName || propName;
+
+      if (typeof props[propName] !== 'undefined' && !props[requiredProp]) {
+        return new Error("The prop `".concat(propFullNameSafe, "` of ") + "`".concat(componentNameInError, "` must be used on `").concat(requiredProp, "`."));
+      }
+
+      return null;
+    };
+  };
+
+  return requireProp;
+}
+
+/***/ }),
+
 /***/ "./node_modules/@material-ui/core/esm/utils/setRef.js":
 /*!************************************************************!*\
   !*** ./node_modules/@material-ui/core/esm/utils/setRef.js ***!
@@ -10068,6 +10955,35 @@ exports.default = _default;
 
 /***/ }),
 
+/***/ "./node_modules/@material-ui/icons/Android.js":
+/*!****************************************************!*\
+  !*** ./node_modules/@material-ui/icons/Android.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _createSvgIcon = _interopRequireDefault(__webpack_require__(/*! ./utils/createSvgIcon */ "./node_modules/@material-ui/icons/utils/createSvgIcon.js"));
+
+var _default = (0, _createSvgIcon.default)(_react.default.createElement("path", {
+  d: "M6 18c0 .55.45 1 1 1h1v3.5c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5V19h2v3.5c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5V19h1c.55 0 1-.45 1-1V8H6v10zM3.5 8C2.67 8 2 8.67 2 9.5v7c0 .83.67 1.5 1.5 1.5S5 17.33 5 16.5v-7C5 8.67 4.33 8 3.5 8zm17 0c-.83 0-1.5.67-1.5 1.5v7c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5v-7c0-.83-.67-1.5-1.5-1.5zm-4.97-5.84l1.3-1.3c.2-.2.2-.51 0-.71-.2-.2-.51-.2-.71 0l-1.48 1.48C13.85 1.23 12.95 1 12 1c-.96 0-1.86.23-2.66.63L7.85.15c-.2-.2-.51-.2-.71 0-.2.2-.2.51 0 .71l1.31 1.31C6.97 3.26 6 5.01 6 7h12c0-1.99-.97-3.75-2.47-4.84zM10 5H9V4h1v1zm5 0h-1V4h1v1z"
+}), 'Android');
+
+exports.default = _default;
+
+/***/ }),
+
 /***/ "./node_modules/@material-ui/icons/BusinessCenter.js":
 /*!***********************************************************!*\
   !*** ./node_modules/@material-ui/icons/BusinessCenter.js ***!
@@ -10092,6 +11008,64 @@ var _createSvgIcon = _interopRequireDefault(__webpack_require__(/*! ./utils/crea
 var _default = (0, _createSvgIcon.default)(_react.default.createElement("path", {
   d: "M10 16v-1H3.01L3 19c0 1.11.89 2 2 2h14c1.11 0 2-.89 2-2v-4h-7v1h-4zm10-9h-4.01V5l-2-2h-4l-2 2v2H4c-1.1 0-2 .9-2 2v3c0 1.11.89 2 2 2h6v-2h4v2h6c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zm-6 0h-4V5h4v2z"
 }), 'BusinessCenter');
+
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/icons/Email.js":
+/*!**************************************************!*\
+  !*** ./node_modules/@material-ui/icons/Email.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _createSvgIcon = _interopRequireDefault(__webpack_require__(/*! ./utils/createSvgIcon */ "./node_modules/@material-ui/icons/utils/createSvgIcon.js"));
+
+var _default = (0, _createSvgIcon.default)(_react.default.createElement("path", {
+  d: "M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+}), 'Email');
+
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/icons/Facebook.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/@material-ui/icons/Facebook.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _createSvgIcon = _interopRequireDefault(__webpack_require__(/*! ./utils/createSvgIcon */ "./node_modules/@material-ui/icons/utils/createSvgIcon.js"));
+
+var _default = (0, _createSvgIcon.default)(_react.default.createElement("path", {
+  d: "M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m13 2h-2.5A3.5 3.5 0 0 0 12 8.5V11h-2v3h2v7h3v-7h3v-3h-3V9a1 1 0 0 1 1-1h2V5z"
+}), 'Facebook');
 
 exports.default = _default;
 
@@ -10150,6 +11124,35 @@ var _createSvgIcon = _interopRequireDefault(__webpack_require__(/*! ./utils/crea
 var _default = (0, _createSvgIcon.default)(_react.default.createElement("path", {
   d: "M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
 }), 'Menu');
+
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/icons/Twitter.js":
+/*!****************************************************!*\
+  !*** ./node_modules/@material-ui/icons/Twitter.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _createSvgIcon = _interopRequireDefault(__webpack_require__(/*! ./utils/createSvgIcon */ "./node_modules/@material-ui/icons/utils/createSvgIcon.js"));
+
+var _default = (0, _createSvgIcon.default)(_react.default.createElement("path", {
+  d: "M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"
+}), 'Twitter');
 
 exports.default = _default;
 
@@ -11995,6 +12998,1163 @@ function withThemeCreator() {
 
 var withTheme = withThemeCreator();
 /* harmony default export */ __webpack_exports__["default"] = (withTheme);
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/system/esm/borders.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/@material-ui/system/esm/borders.js ***!
+  \*********************************************************/
+/*! exports provided: border, borderTop, borderRight, borderBottom, borderLeft, borderColor, borderRadius, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "border", function() { return border; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "borderTop", function() { return borderTop; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "borderRight", function() { return borderRight; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "borderBottom", function() { return borderBottom; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "borderLeft", function() { return borderLeft; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "borderColor", function() { return borderColor; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "borderRadius", function() { return borderRadius; });
+/* harmony import */ var _style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style */ "./node_modules/@material-ui/system/esm/style.js");
+/* harmony import */ var _compose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./compose */ "./node_modules/@material-ui/system/esm/compose.js");
+
+
+
+function getBorder(value) {
+  if (typeof value !== 'number') {
+    return value;
+  }
+
+  return "".concat(value, "px solid");
+}
+
+var border = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'border',
+  themeKey: 'borders',
+  transform: getBorder
+});
+var borderTop = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'borderTop',
+  themeKey: 'borders',
+  transform: getBorder
+});
+var borderRight = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'borderRight',
+  themeKey: 'borders',
+  transform: getBorder
+});
+var borderBottom = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'borderBottom',
+  themeKey: 'borders',
+  transform: getBorder
+});
+var borderLeft = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'borderLeft',
+  themeKey: 'borders',
+  transform: getBorder
+});
+var borderColor = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'borderColor',
+  themeKey: 'palette'
+});
+var borderRadius = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'borderRadius',
+  themeKey: 'shape'
+});
+var borders = Object(_compose__WEBPACK_IMPORTED_MODULE_1__["default"])(border, borderTop, borderRight, borderBottom, borderLeft, borderColor, borderRadius);
+/* harmony default export */ __webpack_exports__["default"] = (borders);
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/system/esm/breakpoints.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/@material-ui/system/esm/breakpoints.js ***!
+  \*************************************************************/
+/*! exports provided: handleBreakpoints, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "handleBreakpoints", function() { return handleBreakpoints; });
+/* harmony import */ var _babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/toConsumableArray */ "./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js");
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var _babel_runtime_helpers_esm_typeof__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/esm/typeof */ "./node_modules/@babel/runtime/helpers/esm/typeof.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _merge__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./merge */ "./node_modules/@material-ui/system/esm/merge.js");
+
+
+
+
+ // The breakpoint **start** at this value.
+// For instance with the first breakpoint xs: [xs, sm[.
+
+var values = {
+  xs: 0,
+  sm: 600,
+  md: 960,
+  lg: 1280,
+  xl: 1920
+};
+var defaultBreakpoints = {
+  // Sorted ASC by size. That's important.
+  // It can't be configured as it's used statically for propTypes.
+  keys: ['xs', 'sm', 'md', 'lg', 'xl'],
+  up: function up(key) {
+    return "@media (min-width:".concat(values[key], "px)");
+  }
+};
+function handleBreakpoints(props, propValue, styleFromPropValue) {
+  if (true) {
+    if (!props.theme) {
+      console.error('@material-ui/system: you are calling a style function without a theme value.');
+    }
+  }
+
+  if (Array.isArray(propValue)) {
+    var themeBreakpoints = props.theme.breakpoints || defaultBreakpoints;
+    return propValue.reduce(function (acc, item, index) {
+      acc[themeBreakpoints.up(themeBreakpoints.keys[index])] = styleFromPropValue(propValue[index]);
+      return acc;
+    }, {});
+  }
+
+  if (Object(_babel_runtime_helpers_esm_typeof__WEBPACK_IMPORTED_MODULE_2__["default"])(propValue) === 'object') {
+    var _themeBreakpoints = props.theme.breakpoints || defaultBreakpoints;
+
+    return Object.keys(propValue).reduce(function (acc, breakpoint) {
+      acc[_themeBreakpoints.up(breakpoint)] = styleFromPropValue(propValue[breakpoint]);
+      return acc;
+    }, {});
+  }
+
+  var output = styleFromPropValue(propValue);
+  return output;
+}
+
+function breakpoints(styleFunction) {
+  var newStyleFunction = function newStyleFunction(props) {
+    var base = styleFunction(props);
+    var themeBreakpoints = props.theme.breakpoints || defaultBreakpoints;
+    var extended = themeBreakpoints.keys.reduce(function (acc, key) {
+      if (props[key]) {
+        acc = acc || {};
+        acc[themeBreakpoints.up(key)] = styleFunction(Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
+          theme: props.theme
+        }, props[key]));
+      }
+
+      return acc;
+    }, null);
+    return Object(_merge__WEBPACK_IMPORTED_MODULE_4__["default"])(base, extended);
+  };
+
+  newStyleFunction.propTypes =  true ? Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, styleFunction.propTypes, {
+    xs: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.object,
+    sm: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.object,
+    md: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.object,
+    lg: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.object,
+    xl: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.object
+  }) : undefined;
+  newStyleFunction.filterProps = ['xs', 'sm', 'md', 'lg', 'xl'].concat(Object(_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(styleFunction.filterProps));
+  return newStyleFunction;
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (breakpoints);
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/system/esm/compose.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/@material-ui/system/esm/compose.js ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var _merge__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./merge */ "./node_modules/@material-ui/system/esm/merge.js");
+
+
+
+function compose() {
+  for (var _len = arguments.length, styles = new Array(_len), _key = 0; _key < _len; _key++) {
+    styles[_key] = arguments[_key];
+  }
+
+  var fn = function fn(props) {
+    return styles.reduce(function (acc, style) {
+      var output = style(props);
+
+      if (output) {
+        return Object(_merge__WEBPACK_IMPORTED_MODULE_1__["default"])(acc, output);
+      }
+
+      return acc;
+    }, {});
+  }; // Alternative approach that doesn't yield any performance gain.
+  // const handlers = styles.reduce((acc, style) => {
+  //   style.filterProps.forEach(prop => {
+  //     acc[prop] = style;
+  //   });
+  //   return acc;
+  // }, {});
+  // const fn = props => {
+  //   return Object.keys(props).reduce((acc, prop) => {
+  //     if (handlers[prop]) {
+  //       return merge(acc, handlers[prop](props));
+  //     }
+  //     return acc;
+  //   }, {});
+  // };
+
+
+  fn.propTypes =  true ? styles.reduce(function (acc, style) {
+    return Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])(acc, style.propTypes);
+  }, {}) : undefined;
+  fn.filterProps = styles.reduce(function (acc, style) {
+    return acc.concat(style.filterProps);
+  }, []);
+  return fn;
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (compose);
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/system/esm/css.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/@material-ui/system/esm/css.js ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/toConsumableArray */ "./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js");
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _merge__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./merge */ "./node_modules/@material-ui/system/esm/merge.js");
+
+
+
+
+
+function omit(input, fields) {
+  var output = {};
+  Object.keys(input).forEach(function (prop) {
+    if (fields.indexOf(prop) === -1) {
+      output[prop] = input[prop];
+    }
+  });
+  return output;
+}
+
+function css(styleFunction) {
+  var newStyleFunction = function newStyleFunction(props) {
+    var output = styleFunction(props);
+
+    if (props.css) {
+      return Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, Object(_merge__WEBPACK_IMPORTED_MODULE_3__["default"])(output, styleFunction(Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
+        theme: props.theme
+      }, props.css))), {}, omit(props.css, [styleFunction.filterProps]));
+    }
+
+    return output;
+  };
+
+  newStyleFunction.propTypes =  true ? Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, styleFunction.propTypes, {
+    css: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.object
+  }) : undefined;
+  newStyleFunction.filterProps = ['css'].concat(Object(_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(styleFunction.filterProps));
+  return newStyleFunction;
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (css);
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/system/esm/display.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/@material-ui/system/esm/display.js ***!
+  \*********************************************************/
+/*! exports provided: displayPrint, displayRaw, overflow, textOverflow, visibility, whiteSpace, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "displayPrint", function() { return displayPrint; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "displayRaw", function() { return displayRaw; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "overflow", function() { return overflow; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "textOverflow", function() { return textOverflow; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "visibility", function() { return visibility; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "whiteSpace", function() { return whiteSpace; });
+/* harmony import */ var _style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style */ "./node_modules/@material-ui/system/esm/style.js");
+/* harmony import */ var _compose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./compose */ "./node_modules/@material-ui/system/esm/compose.js");
+
+
+var displayPrint = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'displayPrint',
+  cssProperty: false,
+  transform: function transform(value) {
+    return {
+      '@media print': {
+        display: value
+      }
+    };
+  }
+});
+var displayRaw = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'display'
+});
+var overflow = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'overflow'
+});
+var textOverflow = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'textOverflow'
+});
+var visibility = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'visibility'
+});
+var whiteSpace = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'whiteSpace'
+});
+/* harmony default export */ __webpack_exports__["default"] = (Object(_compose__WEBPACK_IMPORTED_MODULE_1__["default"])(displayPrint, displayRaw, overflow, textOverflow, visibility, whiteSpace));
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/system/esm/flexbox.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/@material-ui/system/esm/flexbox.js ***!
+  \*********************************************************/
+/*! exports provided: flexBasis, flexDirection, flexWrap, justifyContent, alignItems, alignContent, order, flex, flexGrow, flexShrink, alignSelf, justifyItems, justifySelf, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "flexBasis", function() { return flexBasis; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "flexDirection", function() { return flexDirection; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "flexWrap", function() { return flexWrap; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "justifyContent", function() { return justifyContent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "alignItems", function() { return alignItems; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "alignContent", function() { return alignContent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "order", function() { return order; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "flex", function() { return flex; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "flexGrow", function() { return flexGrow; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "flexShrink", function() { return flexShrink; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "alignSelf", function() { return alignSelf; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "justifyItems", function() { return justifyItems; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "justifySelf", function() { return justifySelf; });
+/* harmony import */ var _style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style */ "./node_modules/@material-ui/system/esm/style.js");
+/* harmony import */ var _compose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./compose */ "./node_modules/@material-ui/system/esm/compose.js");
+
+
+var flexBasis = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'flexBasis'
+});
+var flexDirection = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'flexDirection'
+});
+var flexWrap = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'flexWrap'
+});
+var justifyContent = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'justifyContent'
+});
+var alignItems = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'alignItems'
+});
+var alignContent = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'alignContent'
+});
+var order = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'order'
+});
+var flex = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'flex'
+});
+var flexGrow = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'flexGrow'
+});
+var flexShrink = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'flexShrink'
+});
+var alignSelf = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'alignSelf'
+});
+var justifyItems = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'justifyItems'
+});
+var justifySelf = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'justifySelf'
+});
+var flexbox = Object(_compose__WEBPACK_IMPORTED_MODULE_1__["default"])(flexBasis, flexDirection, flexWrap, justifyContent, alignItems, alignContent, order, flex, flexGrow, flexShrink, alignSelf, justifyItems, justifySelf);
+/* harmony default export */ __webpack_exports__["default"] = (flexbox);
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/system/esm/grid.js":
+/*!******************************************************!*\
+  !*** ./node_modules/@material-ui/system/esm/grid.js ***!
+  \******************************************************/
+/*! exports provided: gridGap, gridColumnGap, gridRowGap, gridColumn, gridRow, gridAutoFlow, gridAutoColumns, gridAutoRows, gridTemplateColumns, gridTemplateRows, gridTemplateAreas, gridArea, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "gridGap", function() { return gridGap; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "gridColumnGap", function() { return gridColumnGap; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "gridRowGap", function() { return gridRowGap; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "gridColumn", function() { return gridColumn; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "gridRow", function() { return gridRow; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "gridAutoFlow", function() { return gridAutoFlow; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "gridAutoColumns", function() { return gridAutoColumns; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "gridAutoRows", function() { return gridAutoRows; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "gridTemplateColumns", function() { return gridTemplateColumns; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "gridTemplateRows", function() { return gridTemplateRows; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "gridTemplateAreas", function() { return gridTemplateAreas; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "gridArea", function() { return gridArea; });
+/* harmony import */ var _style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style */ "./node_modules/@material-ui/system/esm/style.js");
+/* harmony import */ var _compose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./compose */ "./node_modules/@material-ui/system/esm/compose.js");
+
+
+var gridGap = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'gridGap'
+});
+var gridColumnGap = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'gridColumnGap'
+});
+var gridRowGap = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'gridRowGap'
+});
+var gridColumn = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'gridColumn'
+});
+var gridRow = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'gridRow'
+});
+var gridAutoFlow = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'gridAutoFlow'
+});
+var gridAutoColumns = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'gridAutoColumns'
+});
+var gridAutoRows = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'gridAutoRows'
+});
+var gridTemplateColumns = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'gridTemplateColumns'
+});
+var gridTemplateRows = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'gridTemplateRows'
+});
+var gridTemplateAreas = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'gridTemplateAreas'
+});
+var gridArea = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'gridArea'
+});
+var grid = Object(_compose__WEBPACK_IMPORTED_MODULE_1__["default"])(gridGap, gridColumnGap, gridRowGap, gridColumn, gridRow, gridAutoFlow, gridAutoColumns, gridAutoRows, gridTemplateColumns, gridTemplateRows, gridTemplateAreas, gridArea);
+/* harmony default export */ __webpack_exports__["default"] = (grid);
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/system/esm/index.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/@material-ui/system/esm/index.js ***!
+  \*******************************************************/
+/*! exports provided: borders, border, borderTop, borderRight, borderBottom, borderLeft, borderColor, borderRadius, breakpoints, compose, css, display, flexbox, flexBasis, flexDirection, flexWrap, justifyContent, alignItems, alignContent, order, flex, flexGrow, flexShrink, alignSelf, justifyItems, justifySelf, grid, gridGap, gridColumnGap, gridRowGap, gridColumn, gridRow, gridAutoFlow, gridAutoColumns, gridAutoRows, gridTemplateColumns, gridTemplateRows, gridTemplateAreas, gridArea, palette, color, bgcolor, positions, position, zIndex, top, right, bottom, left, shadows, sizing, width, maxWidth, minWidth, height, maxHeight, minHeight, sizeWidth, sizeHeight, boxSizing, spacing, style, typography, fontFamily, fontSize, fontStyle, fontWeight, letterSpacing, lineHeight, textAlign */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _borders__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./borders */ "./node_modules/@material-ui/system/esm/borders.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "borders", function() { return _borders__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "border", function() { return _borders__WEBPACK_IMPORTED_MODULE_0__["border"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "borderTop", function() { return _borders__WEBPACK_IMPORTED_MODULE_0__["borderTop"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "borderRight", function() { return _borders__WEBPACK_IMPORTED_MODULE_0__["borderRight"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "borderBottom", function() { return _borders__WEBPACK_IMPORTED_MODULE_0__["borderBottom"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "borderLeft", function() { return _borders__WEBPACK_IMPORTED_MODULE_0__["borderLeft"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "borderColor", function() { return _borders__WEBPACK_IMPORTED_MODULE_0__["borderColor"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "borderRadius", function() { return _borders__WEBPACK_IMPORTED_MODULE_0__["borderRadius"]; });
+
+/* harmony import */ var _breakpoints__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./breakpoints */ "./node_modules/@material-ui/system/esm/breakpoints.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "breakpoints", function() { return _breakpoints__WEBPACK_IMPORTED_MODULE_1__["default"]; });
+
+/* harmony import */ var _compose__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./compose */ "./node_modules/@material-ui/system/esm/compose.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "compose", function() { return _compose__WEBPACK_IMPORTED_MODULE_2__["default"]; });
+
+/* harmony import */ var _css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./css */ "./node_modules/@material-ui/system/esm/css.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "css", function() { return _css__WEBPACK_IMPORTED_MODULE_3__["default"]; });
+
+/* harmony import */ var _display__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./display */ "./node_modules/@material-ui/system/esm/display.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "display", function() { return _display__WEBPACK_IMPORTED_MODULE_4__["default"]; });
+
+/* harmony import */ var _flexbox__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./flexbox */ "./node_modules/@material-ui/system/esm/flexbox.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "flexbox", function() { return _flexbox__WEBPACK_IMPORTED_MODULE_5__["default"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "flexBasis", function() { return _flexbox__WEBPACK_IMPORTED_MODULE_5__["flexBasis"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "flexDirection", function() { return _flexbox__WEBPACK_IMPORTED_MODULE_5__["flexDirection"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "flexWrap", function() { return _flexbox__WEBPACK_IMPORTED_MODULE_5__["flexWrap"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "justifyContent", function() { return _flexbox__WEBPACK_IMPORTED_MODULE_5__["justifyContent"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "alignItems", function() { return _flexbox__WEBPACK_IMPORTED_MODULE_5__["alignItems"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "alignContent", function() { return _flexbox__WEBPACK_IMPORTED_MODULE_5__["alignContent"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "order", function() { return _flexbox__WEBPACK_IMPORTED_MODULE_5__["order"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "flex", function() { return _flexbox__WEBPACK_IMPORTED_MODULE_5__["flex"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "flexGrow", function() { return _flexbox__WEBPACK_IMPORTED_MODULE_5__["flexGrow"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "flexShrink", function() { return _flexbox__WEBPACK_IMPORTED_MODULE_5__["flexShrink"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "alignSelf", function() { return _flexbox__WEBPACK_IMPORTED_MODULE_5__["alignSelf"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "justifyItems", function() { return _flexbox__WEBPACK_IMPORTED_MODULE_5__["justifyItems"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "justifySelf", function() { return _flexbox__WEBPACK_IMPORTED_MODULE_5__["justifySelf"]; });
+
+/* harmony import */ var _grid__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./grid */ "./node_modules/@material-ui/system/esm/grid.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "grid", function() { return _grid__WEBPACK_IMPORTED_MODULE_6__["default"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "gridGap", function() { return _grid__WEBPACK_IMPORTED_MODULE_6__["gridGap"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "gridColumnGap", function() { return _grid__WEBPACK_IMPORTED_MODULE_6__["gridColumnGap"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "gridRowGap", function() { return _grid__WEBPACK_IMPORTED_MODULE_6__["gridRowGap"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "gridColumn", function() { return _grid__WEBPACK_IMPORTED_MODULE_6__["gridColumn"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "gridRow", function() { return _grid__WEBPACK_IMPORTED_MODULE_6__["gridRow"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "gridAutoFlow", function() { return _grid__WEBPACK_IMPORTED_MODULE_6__["gridAutoFlow"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "gridAutoColumns", function() { return _grid__WEBPACK_IMPORTED_MODULE_6__["gridAutoColumns"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "gridAutoRows", function() { return _grid__WEBPACK_IMPORTED_MODULE_6__["gridAutoRows"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "gridTemplateColumns", function() { return _grid__WEBPACK_IMPORTED_MODULE_6__["gridTemplateColumns"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "gridTemplateRows", function() { return _grid__WEBPACK_IMPORTED_MODULE_6__["gridTemplateRows"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "gridTemplateAreas", function() { return _grid__WEBPACK_IMPORTED_MODULE_6__["gridTemplateAreas"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "gridArea", function() { return _grid__WEBPACK_IMPORTED_MODULE_6__["gridArea"]; });
+
+/* harmony import */ var _palette__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./palette */ "./node_modules/@material-ui/system/esm/palette.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "palette", function() { return _palette__WEBPACK_IMPORTED_MODULE_7__["default"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "color", function() { return _palette__WEBPACK_IMPORTED_MODULE_7__["color"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "bgcolor", function() { return _palette__WEBPACK_IMPORTED_MODULE_7__["bgcolor"]; });
+
+/* harmony import */ var _positions__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./positions */ "./node_modules/@material-ui/system/esm/positions.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "positions", function() { return _positions__WEBPACK_IMPORTED_MODULE_8__["default"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "position", function() { return _positions__WEBPACK_IMPORTED_MODULE_8__["position"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "zIndex", function() { return _positions__WEBPACK_IMPORTED_MODULE_8__["zIndex"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "top", function() { return _positions__WEBPACK_IMPORTED_MODULE_8__["top"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "right", function() { return _positions__WEBPACK_IMPORTED_MODULE_8__["right"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "bottom", function() { return _positions__WEBPACK_IMPORTED_MODULE_8__["bottom"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "left", function() { return _positions__WEBPACK_IMPORTED_MODULE_8__["left"]; });
+
+/* harmony import */ var _shadows__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./shadows */ "./node_modules/@material-ui/system/esm/shadows.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "shadows", function() { return _shadows__WEBPACK_IMPORTED_MODULE_9__["default"]; });
+
+/* harmony import */ var _sizing__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./sizing */ "./node_modules/@material-ui/system/esm/sizing.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "sizing", function() { return _sizing__WEBPACK_IMPORTED_MODULE_10__["default"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "width", function() { return _sizing__WEBPACK_IMPORTED_MODULE_10__["width"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "maxWidth", function() { return _sizing__WEBPACK_IMPORTED_MODULE_10__["maxWidth"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "minWidth", function() { return _sizing__WEBPACK_IMPORTED_MODULE_10__["minWidth"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "height", function() { return _sizing__WEBPACK_IMPORTED_MODULE_10__["height"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "maxHeight", function() { return _sizing__WEBPACK_IMPORTED_MODULE_10__["maxHeight"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "minHeight", function() { return _sizing__WEBPACK_IMPORTED_MODULE_10__["minHeight"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "sizeWidth", function() { return _sizing__WEBPACK_IMPORTED_MODULE_10__["sizeWidth"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "sizeHeight", function() { return _sizing__WEBPACK_IMPORTED_MODULE_10__["sizeHeight"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "boxSizing", function() { return _sizing__WEBPACK_IMPORTED_MODULE_10__["boxSizing"]; });
+
+/* harmony import */ var _spacing__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./spacing */ "./node_modules/@material-ui/system/esm/spacing.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "spacing", function() { return _spacing__WEBPACK_IMPORTED_MODULE_11__["default"]; });
+
+/* harmony import */ var _style__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./style */ "./node_modules/@material-ui/system/esm/style.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "style", function() { return _style__WEBPACK_IMPORTED_MODULE_12__["default"]; });
+
+/* harmony import */ var _typography__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./typography */ "./node_modules/@material-ui/system/esm/typography.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "typography", function() { return _typography__WEBPACK_IMPORTED_MODULE_13__["default"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "fontFamily", function() { return _typography__WEBPACK_IMPORTED_MODULE_13__["fontFamily"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "fontSize", function() { return _typography__WEBPACK_IMPORTED_MODULE_13__["fontSize"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "fontStyle", function() { return _typography__WEBPACK_IMPORTED_MODULE_13__["fontStyle"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "fontWeight", function() { return _typography__WEBPACK_IMPORTED_MODULE_13__["fontWeight"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "letterSpacing", function() { return _typography__WEBPACK_IMPORTED_MODULE_13__["letterSpacing"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "lineHeight", function() { return _typography__WEBPACK_IMPORTED_MODULE_13__["lineHeight"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "textAlign", function() { return _typography__WEBPACK_IMPORTED_MODULE_13__["textAlign"]; });
+
+/** @license Material-UI v4.9.3
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/system/esm/memoize.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/@material-ui/system/esm/memoize.js ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return memoize; });
+function memoize(fn) {
+  var cache = {};
+  return function (arg) {
+    if (cache[arg] === undefined) {
+      cache[arg] = fn(arg);
+    }
+
+    return cache[arg];
+  };
+}
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/system/esm/merge.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/@material-ui/system/esm/merge.js ***!
+  \*******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _material_ui_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @material-ui/utils */ "./node_modules/@material-ui/utils/esm/index.js");
+
+
+function merge(acc, item) {
+  if (!item) {
+    return acc;
+  }
+
+  return Object(_material_ui_utils__WEBPACK_IMPORTED_MODULE_0__["deepmerge"])(acc, item, {
+    clone: false // No need to clone deep, it's way faster.
+
+  });
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (merge);
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/system/esm/palette.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/@material-ui/system/esm/palette.js ***!
+  \*********************************************************/
+/*! exports provided: color, bgcolor, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "color", function() { return color; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "bgcolor", function() { return bgcolor; });
+/* harmony import */ var _style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style */ "./node_modules/@material-ui/system/esm/style.js");
+/* harmony import */ var _compose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./compose */ "./node_modules/@material-ui/system/esm/compose.js");
+
+
+var color = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'color',
+  themeKey: 'palette'
+});
+var bgcolor = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'bgcolor',
+  cssProperty: 'backgroundColor',
+  themeKey: 'palette'
+});
+var palette = Object(_compose__WEBPACK_IMPORTED_MODULE_1__["default"])(color, bgcolor);
+/* harmony default export */ __webpack_exports__["default"] = (palette);
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/system/esm/positions.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/@material-ui/system/esm/positions.js ***!
+  \***********************************************************/
+/*! exports provided: position, zIndex, top, right, bottom, left, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "position", function() { return position; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "zIndex", function() { return zIndex; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "top", function() { return top; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "right", function() { return right; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "bottom", function() { return bottom; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "left", function() { return left; });
+/* harmony import */ var _style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style */ "./node_modules/@material-ui/system/esm/style.js");
+/* harmony import */ var _compose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./compose */ "./node_modules/@material-ui/system/esm/compose.js");
+
+
+var position = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'position'
+});
+var zIndex = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'zIndex',
+  themeKey: 'zIndex'
+});
+var top = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'top'
+});
+var right = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'right'
+});
+var bottom = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'bottom'
+});
+var left = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'left'
+});
+/* harmony default export */ __webpack_exports__["default"] = (Object(_compose__WEBPACK_IMPORTED_MODULE_1__["default"])(position, zIndex, top, right, bottom, left));
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/system/esm/responsivePropType.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/@material-ui/system/esm/responsivePropType.js ***!
+  \********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_0__);
+
+var responsivePropType =  true ? prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.number, prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.string, prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.object, prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.array]) : undefined;
+/* harmony default export */ __webpack_exports__["default"] = (responsivePropType);
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/system/esm/shadows.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/@material-ui/system/esm/shadows.js ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style */ "./node_modules/@material-ui/system/esm/style.js");
+
+var boxShadow = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'boxShadow',
+  themeKey: 'shadows'
+});
+/* harmony default export */ __webpack_exports__["default"] = (boxShadow);
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/system/esm/sizing.js":
+/*!********************************************************!*\
+  !*** ./node_modules/@material-ui/system/esm/sizing.js ***!
+  \********************************************************/
+/*! exports provided: width, maxWidth, minWidth, height, maxHeight, minHeight, sizeWidth, sizeHeight, boxSizing, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "width", function() { return width; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "maxWidth", function() { return maxWidth; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "minWidth", function() { return minWidth; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "height", function() { return height; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "maxHeight", function() { return maxHeight; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "minHeight", function() { return minHeight; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "sizeWidth", function() { return sizeWidth; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "sizeHeight", function() { return sizeHeight; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "boxSizing", function() { return boxSizing; });
+/* harmony import */ var _style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style */ "./node_modules/@material-ui/system/esm/style.js");
+/* harmony import */ var _compose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./compose */ "./node_modules/@material-ui/system/esm/compose.js");
+
+
+
+function transform(value) {
+  return value <= 1 ? "".concat(value * 100, "%") : value;
+}
+
+var width = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'width',
+  transform: transform
+});
+var maxWidth = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'maxWidth',
+  transform: transform
+});
+var minWidth = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'minWidth',
+  transform: transform
+});
+var height = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'height',
+  transform: transform
+});
+var maxHeight = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'maxHeight',
+  transform: transform
+});
+var minHeight = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'minHeight',
+  transform: transform
+});
+var sizeWidth = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'size',
+  cssProperty: 'width',
+  transform: transform
+});
+var sizeHeight = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'size',
+  cssProperty: 'height',
+  transform: transform
+});
+var boxSizing = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'boxSizing'
+});
+var sizing = Object(_compose__WEBPACK_IMPORTED_MODULE_1__["default"])(width, maxWidth, minWidth, height, maxHeight, minHeight, boxSizing);
+/* harmony default export */ __webpack_exports__["default"] = (sizing);
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/system/esm/spacing.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/@material-ui/system/esm/spacing.js ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
+/* harmony import */ var _responsivePropType__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./responsivePropType */ "./node_modules/@material-ui/system/esm/responsivePropType.js");
+/* harmony import */ var _breakpoints__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./breakpoints */ "./node_modules/@material-ui/system/esm/breakpoints.js");
+/* harmony import */ var _merge__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./merge */ "./node_modules/@material-ui/system/esm/merge.js");
+/* harmony import */ var _memoize__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./memoize */ "./node_modules/@material-ui/system/esm/memoize.js");
+
+
+
+
+
+var properties = {
+  m: 'margin',
+  p: 'padding'
+};
+var directions = {
+  t: 'Top',
+  r: 'Right',
+  b: 'Bottom',
+  l: 'Left',
+  x: ['Left', 'Right'],
+  y: ['Top', 'Bottom']
+};
+var aliases = {
+  marginX: 'mx',
+  marginY: 'my',
+  paddingX: 'px',
+  paddingY: 'py'
+}; // memoize() impact:
+// From 300,000 ops/sec
+// To 350,000 ops/sec
+
+var getCssProperties = Object(_memoize__WEBPACK_IMPORTED_MODULE_4__["default"])(function (prop) {
+  // It's not a shorthand notation.
+  if (prop.length > 2) {
+    if (aliases[prop]) {
+      prop = aliases[prop];
+    } else {
+      return [prop];
+    }
+  }
+
+  var _prop$split = prop.split(''),
+      _prop$split2 = Object(_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_prop$split, 2),
+      a = _prop$split2[0],
+      b = _prop$split2[1];
+
+  var property = properties[a];
+  var direction = directions[b] || '';
+  return Array.isArray(direction) ? direction.map(function (dir) {
+    return property + dir;
+  }) : [property + direction];
+});
+var spacingKeys = ['m', 'mt', 'mr', 'mb', 'ml', 'mx', 'my', 'p', 'pt', 'pr', 'pb', 'pl', 'px', 'py', 'margin', 'marginTop', 'marginRight', 'marginBottom', 'marginLeft', 'marginX', 'marginY', 'padding', 'paddingTop', 'paddingRight', 'paddingBottom', 'paddingLeft', 'paddingX', 'paddingY'];
+
+function getTransformer(theme) {
+  var themeSpacing = theme.spacing || 8;
+
+  if (typeof themeSpacing === 'number') {
+    return function (abs) {
+      return themeSpacing * abs;
+    };
+  }
+
+  if (Array.isArray(themeSpacing)) {
+    return function (abs) {
+      if (true) {
+        if (abs > themeSpacing.length - 1) {
+          console.error(["@material-ui/system: the value provided (".concat(abs, ") overflows."), "The supported values are: ".concat(JSON.stringify(themeSpacing), "."), "".concat(abs, " > ").concat(themeSpacing.length - 1, ", you need to add the missing values.")].join('\n'));
+        }
+      }
+
+      return themeSpacing[abs];
+    };
+  }
+
+  if (typeof themeSpacing === 'function') {
+    return themeSpacing;
+  }
+
+  if (true) {
+    console.error(["@material-ui/system: the `theme.spacing` value (".concat(themeSpacing, ") is invalid."), 'It should be a number, an array or a function.'].join('\n'));
+  }
+
+  return function () {
+    return undefined;
+  };
+}
+
+function getValue(transformer, propValue) {
+  if (typeof propValue === 'string') {
+    return propValue;
+  }
+
+  var abs = Math.abs(propValue);
+  var transformed = transformer(abs);
+
+  if (propValue >= 0) {
+    return transformed;
+  }
+
+  if (typeof transformed === 'number') {
+    return -transformed;
+  }
+
+  return "-".concat(transformed);
+}
+
+function getStyleFromPropValue(cssProperties, transformer) {
+  return function (propValue) {
+    return cssProperties.reduce(function (acc, cssProperty) {
+      acc[cssProperty] = getValue(transformer, propValue);
+      return acc;
+    }, {});
+  };
+}
+
+function spacing(props) {
+  var theme = props.theme;
+  var transformer = getTransformer(theme);
+  return Object.keys(props).map(function (prop) {
+    // Using a hash computation over an array iteration could be faster, but with only 28 items,
+    // it's doesn't worth the bundle size.
+    if (spacingKeys.indexOf(prop) === -1) {
+      return null;
+    }
+
+    var cssProperties = getCssProperties(prop);
+    var styleFromPropValue = getStyleFromPropValue(cssProperties, transformer);
+    var propValue = props[prop];
+    return Object(_breakpoints__WEBPACK_IMPORTED_MODULE_2__["handleBreakpoints"])(props, propValue, styleFromPropValue);
+  }).reduce(_merge__WEBPACK_IMPORTED_MODULE_3__["default"], {});
+}
+
+spacing.propTypes =  true ? spacingKeys.reduce(function (obj, key) {
+  obj[key] = _responsivePropType__WEBPACK_IMPORTED_MODULE_1__["default"];
+  return obj;
+}, {}) : undefined;
+spacing.filterProps = spacingKeys;
+/* harmony default export */ __webpack_exports__["default"] = (spacing);
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/system/esm/style.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/@material-ui/system/esm/style.js ***!
+  \*******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var _responsivePropType__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./responsivePropType */ "./node_modules/@material-ui/system/esm/responsivePropType.js");
+/* harmony import */ var _breakpoints__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./breakpoints */ "./node_modules/@material-ui/system/esm/breakpoints.js");
+
+
+
+
+function getPath(obj, path) {
+  if (!path || typeof path !== 'string') {
+    return null;
+  }
+
+  return path.split('.').reduce(function (acc, item) {
+    return acc && acc[item] ? acc[item] : null;
+  }, obj);
+}
+
+function style(options) {
+  var prop = options.prop,
+      _options$cssProperty = options.cssProperty,
+      cssProperty = _options$cssProperty === void 0 ? options.prop : _options$cssProperty,
+      themeKey = options.themeKey,
+      transform = options.transform;
+
+  var fn = function fn(props) {
+    if (props[prop] == null) {
+      return null;
+    }
+
+    var propValue = props[prop];
+    var theme = props.theme;
+    var themeMapping = getPath(theme, themeKey) || {};
+
+    var styleFromPropValue = function styleFromPropValue(propValueFinal) {
+      var value;
+
+      if (typeof themeMapping === 'function') {
+        value = themeMapping(propValueFinal);
+      } else if (Array.isArray(themeMapping)) {
+        value = themeMapping[propValueFinal] || propValueFinal;
+      } else {
+        value = getPath(themeMapping, propValueFinal) || propValueFinal;
+
+        if (transform) {
+          value = transform(value);
+        }
+      }
+
+      if (cssProperty === false) {
+        return value;
+      }
+
+      return Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])({}, cssProperty, value);
+    };
+
+    return Object(_breakpoints__WEBPACK_IMPORTED_MODULE_2__["handleBreakpoints"])(props, propValue, styleFromPropValue);
+  };
+
+  fn.propTypes =  true ? Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])({}, prop, _responsivePropType__WEBPACK_IMPORTED_MODULE_1__["default"]) : undefined;
+  fn.filterProps = [prop];
+  return fn;
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (style);
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/system/esm/typography.js":
+/*!************************************************************!*\
+  !*** ./node_modules/@material-ui/system/esm/typography.js ***!
+  \************************************************************/
+/*! exports provided: fontFamily, fontSize, fontStyle, fontWeight, letterSpacing, lineHeight, textAlign, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "fontFamily", function() { return fontFamily; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "fontSize", function() { return fontSize; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "fontStyle", function() { return fontStyle; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "fontWeight", function() { return fontWeight; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "letterSpacing", function() { return letterSpacing; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "lineHeight", function() { return lineHeight; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "textAlign", function() { return textAlign; });
+/* harmony import */ var _style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style */ "./node_modules/@material-ui/system/esm/style.js");
+/* harmony import */ var _compose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./compose */ "./node_modules/@material-ui/system/esm/compose.js");
+
+
+var fontFamily = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'fontFamily',
+  themeKey: 'typography'
+});
+var fontSize = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'fontSize',
+  themeKey: 'typography'
+});
+var fontStyle = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'fontStyle',
+  themeKey: 'typography'
+});
+var fontWeight = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'fontWeight',
+  themeKey: 'typography'
+});
+var letterSpacing = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'letterSpacing'
+});
+var lineHeight = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'lineHeight'
+});
+var textAlign = Object(_style__WEBPACK_IMPORTED_MODULE_0__["default"])({
+  prop: 'textAlign'
+});
+var typography = Object(_compose__WEBPACK_IMPORTED_MODULE_1__["default"])(fontFamily, fontSize, fontStyle, fontWeight, letterSpacing, lineHeight, textAlign);
+/* harmony default export */ __webpack_exports__["default"] = (typography);
 
 /***/ }),
 
@@ -31138,15 +33298,15 @@ Tale.getInitialProps = function _callee(context) {
 var map = {
 	"./Buro-Saheb-R158222688209208594200643072134.json": [
 		"./reactales/tales/Buro-Saheb-R158222688209208594200643072134.json",
-		1
+		4
 	],
 	"./Cow-and-Crow-R158296283558608670706121727594.json": [
 		"./reactales/tales/Cow-and-Crow-R158296283558608670706121727594.json",
-		2
+		5
 	],
 	"./রাতের-হাতে-R158218170228608963665672144063.json": [
 		"./reactales/tales/রাতের-হাতে-R158218170228608963665672144063.json",
-		3
+		6
 	]
 };
 function webpackAsyncContext(req) {
@@ -31877,7 +34037,7 @@ function make3Figure(num) {
 
 /***/ }),
 
-/***/ 2:
+/***/ 6:
 /*!************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fread%2F%5Bid%5D&absolutePagePath=D%3A%5CCode%5CGIthub-Reactale%5Creactale-static%5Cpages%5Cread%5C%5Bid%5D.js ***!
   \************************************************************************************************************************************************************/
@@ -31900,5 +34060,5 @@ module.exports = dll_0fb095e325d7ebf261c3;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[6,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=[id].js.map
