@@ -436,7 +436,7 @@ var MyTales = function MyTales(props) {
   };
 
   return __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    p: 2,
+    py: 2,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25

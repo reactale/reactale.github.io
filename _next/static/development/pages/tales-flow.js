@@ -1052,7 +1052,6 @@ var Sidebard = function Sidebard(props) {
         key: nav.name,
         href: nav.url,
         as: nav.url,
-        title: nav.name,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 69
@@ -1061,6 +1060,7 @@ var Sidebard = function Sidebard(props) {
       }, __jsx(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_5__["default"], {
         button: true,
         className: classes.listItem,
+        title: nav.name,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 70
@@ -1688,14 +1688,14 @@ var useStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_11__["m
   return {
     outerContainer: {
       position: 'relative',
-      marginLeft: 45,
+      marginLeft: 35,
       height: "calc(100vh - 100px)"
     },
     svgContainer: {
       border: "7px double ".concat(theme.palette.primary.main),
       height: "100%",
       overflow: "auto",
-      margin: theme.spacing(1),
+      margin: "".concat(theme.spacing(1), "px 0"),
       borderRadius: theme.spacing(1)
     },
     mainSVG: {
@@ -71487,7 +71487,7 @@ function make3Figure(num) {
 
 /***/ }),
 
-/***/ 2:
+/***/ 4:
 /*!**********************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Ftales-flow&absolutePagePath=D%3A%5CCode%5CGIthub-Reactale%5Creactale-static%5Cpages%5Ctales-flow%5Cindex.js ***!
   \**********************************************************************************************************************************************************/
@@ -71510,5 +71510,5 @@ module.exports = dll_0fb095e325d7ebf261c3;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[4,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=tales-flow.js.map
