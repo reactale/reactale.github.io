@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[14],{b6gy:function(n,t,e){"use strict";e.r(t);var u=e("q1tI"),i=e.n(u),o=e("okHz"),w=(e("a6RD"),e("fDFK")),a=i.a.createElement;t.default=function(){return a(o.c,null,a(w.a,null))}},bBU6:function(n,t,e){(window.__NEXT_P=window.__NEXT_P||[]).push(["/edit-tale/[id]",function(){return e("b6gy")}])}},[["bBU6",1,2,6,0,3,5,4,7]]]);
