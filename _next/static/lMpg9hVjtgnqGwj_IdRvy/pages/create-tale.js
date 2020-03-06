@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{aBBt:function(n,t,e){"use strict";e.r(t);var a=e("q1tI"),c=e.n(a),u=e("okHz"),o=(e("a6RD"),e("fDFK")),w=c.a.createElement;t.default=function(){return w(u.c,null,w(o.a,null))}},genc:function(n,t,e){(window.__NEXT_P=window.__NEXT_P||[]).push(["/create-tale",function(){return e("aBBt")}])}},[["genc",1,2,6,0,3,4,5,7]]]);
