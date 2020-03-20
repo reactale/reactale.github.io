@@ -1,0 +1,101 @@
+:root {
+    --theme-color: #d50000;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Exo', sans-serif;
+  }
+  .flex {
+    display: flex;
+  }
+  .flex-grow-1 {
+    flex-grow: 1;
+  }
+  .flex-space-between {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .hide {
+    display: none !important;
+  }
+  .margin-top-0 {
+    margin-top: 0 !important;
+  }
+  .margin-bottom-0 {
+    margin-bottom: 0 !important;
+  }
+  .margin-top-15 {
+    margin-top: 15px !important;
+  }
+  .margin-top-25 {
+    margin-top: 25px !important;
+  }
+  .margin-right-15 {
+    margin-right: 15px !important;
+  }
+  .anchor-default-none,
+  .anchor-default-none:active,
+  .anchor-default-none:hover,
+  .anchor-default-none:focus {
+    text-decoration: none;
+    color: inherit;
+  }
+  .appbody {
+    min-height: calc(100vh - 90px);
+  }
+  .talesflowicon {
+    line-height: 0;
+  }
+  .talesflowicon svg {
+    transform: rotateZ(90deg)
+  }
+  
+  
+  /**********************************************
+  * CSS OVERWRITE OF MATERIAL
+  **********************************************/
+  .MuiInputLabel-outlined {
+    background-color: #fff;
+  }
+  .MuiInputAdornment-root svg {
+    color: var(--theme-color)
+  }
+  /********************************************/
+  
+  /**********************************************
+  * Custom Scrollbar
+  **********************************************/
+  /* width */
+  ::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #d50000; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #950000; 
+  }
+  /********************************************/
+  
