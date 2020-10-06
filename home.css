@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;600;700&display=swap');
+
+:root {
+	--theme-color: #d50000;
+}
+body {
+	font-family: 'Exo', sans-serif;
+}
+/*****************************************************************************
+* UTILITY
+*****************************************************************************/
+.mt-40 {
+	margin-top: 40px !important;
+}
+.mr-5 {
+	margin-right: 5px !important;
+}
+.appear-animation {
+	animation: appear 1500ms ease 0s;
+}
+/****************************************************************************/
+.banner {
+	background: var(--theme-color);
+	height: 220px;
+	position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.banner .logo-sec {
+	margin-top: 54px;
+	text-align: center;
+}
+.banner .logo-sec .logo {
+	height: 40px;
+	animation: appear-from-top 1000ms ease-out;
+}
+.banner .logo-sec .tagline {
+	text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.banner .logo-sec .tagline .t {
+	display: inline-block;
+}
+.banner .logo-sec .tagline .t1 {
+	animation: appear-from-left 1s ease-out;
+}
+.banner .logo-sec .tagline .t2 {
+	animation: appear-from-right 1s ease-out;
+}
+.banner .btn-sec {
+	opacity: 0;
+	animation: appear 1500ms ease 600ms;
+	margin-top: 18px;
+	animation-fill-mode: forwards;
+}
+.intro-section {
+	border-bottom: 5px double var(--theme-color);
+}
+.feature-section {
+	display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+.feature-section h1 {
+	font-size: 45px;
+	color: rgba(0, 0, 0, .8);
+	margin: 15px 0;
+}
+.feature-section p {
+	color: rgba(0, 0, 0, .6);
+	text-align: justify;
+}
+.feature-section .minified-html-animation {
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.feature-section .minified-html-animation .caption {
+	padding: 10px 15px;
+}
+/********************************************************
+* ANIMATIONS
+********************************************************/
+@keyframes appear {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+@keyframes appear-from-top {
+	0% { transform: translateY(-50px); opacity: 0; }
+	100% { transform: translateY(0); opacity: 1; }
+}
+@keyframes appear-from-left {
+	0% { transform: translateX(-50px); opacity: 0; }
+	100% { transform: translateX(0); opacity: 1; }
+}
+@keyframes appear-from-right {
+	0% { transform: translateX(50px); opacity: 0; }
+	100% { transform: translateX(0); opacity: 1; }
+}
+/********************************************************
+* MEDIA QUERIES
+********************************************************/
+@media (max-width: 600px) {
+	.feature-section {
+		padding: 0;
+	}
+	.feature-section h1 {
+		font-size: 38px;
+	}
+	.feature-section .minified-html-animation {
+		padding: 0 !important;
+	}
+}
