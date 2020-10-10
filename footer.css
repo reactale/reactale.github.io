@@ -1,0 +1,28 @@
+footer {
+	background: var(--theme-color);
+	color: #fff;
+	margin-top: 25px;
+}
+.footer {
+	margin-bottom: 0;
+}
+.footer .info-text {
+	padding: 3px 20px 0 !important;
+	text-align: justify;
+}
+.footer .urls-sec {
+	padding: 0 20px !important;
+}
+.footer .social-connect {
+	display: flex;
+}
+.footer .social-connect li {
+	margin-right: 10px;
+}
+.footer .social-connect li .ico {
+	font-size: 22px;
+}
+.footer .social-connect li a,
+.footer .important-links li a {
+	color: #fff !important;
+}
