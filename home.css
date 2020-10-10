@@ -90,6 +90,36 @@ body {
 .feature-section .minified-html-animation .caption {
 	padding: 10px 15px;
 }
+.misc-sec .square-card {
+	padding: 15px;
+	margin-top: 15px;
+}
+.misc-sec .square-card .inner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/*background: var(--theme-color);*/
+	/*border: 5px solid var(--theme-color);*/
+	color: #000 !important;
+	border-radius: 4px;
+}
+.misc-sec .square-card .ico {
+	font-size: 72px;
+    color: var(--theme-color) !important;
+}
+.misc-sec .square-card .title {
+	font-size: 22px;
+	margin-top: 15px;
+}
+.misc-sec .square-card .info {
+	margin-top: 7px;
+	background: #fff;
+	color: #000;
+	border-radius: 4px;
+	width: 100%;
+	text-align: justify;
+}
 /********************************************************
 * ANIMATIONS
 ********************************************************/
